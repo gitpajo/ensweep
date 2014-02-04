@@ -20,10 +20,5 @@
     <gap:platform name="android" />
     <gap:platform name="winphone" />
 
-	<feature name="InAppBrowser">
-		<param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
-	</feature>
-
-	<access origin="http://lupa.cz" subdomains="true" />
-	<access origin='http://google.com' />
+	<access origin="*" />
 </widget>

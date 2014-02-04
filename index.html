@@ -10,8 +10,14 @@
   </head>
   <body>
 	<h1>Hello</h1>
-	<p><a href="http://m.lupa.cz">Pokus</a>
+	<p>
+	<a href="http://m.lupa.cz" target='_self' >Lupa</a><br>
+	<a href="#" onclick="var ref = window.open('http://google.com', '_system');">Google (System Browser)</a><br /><br />
+	<a href="#" onclick="var ref = window.open('http://google.com', '_blank');">Google (InAppBrowser)</a><br /><br />
+	<a href="#" onclick="var ref = window.open('http://google.com', '_self');">Google (Webview)</a>	
+	<hr>
 	<button onclick="myFunction()">Try it</button>
+	<div id="demo"/>
   </body>
   
   <script>

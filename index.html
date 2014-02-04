@@ -8,14 +8,21 @@
 
 
   </head>
-  <body onclick="alert(12345);">
+  <body>
 	<h1>Hello</h1>
 	<p><a href="http://m.lupa.cz">Pokus</a>
+	<button onclick="myFunction()">Try it</button>
   </body>
   
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
   <script>
-  alert("Rozmery: " + $(window).width() + " " + $(window).height());
+	alert("Ahoj");
+	function myFunction()
+	{
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		x = document.getElementById("demo");
+		x.innerHTML="Width: " + w + " Heigth: " + h;
+	}
 //  window.addEventListener('load', function(e) {
 //    setTimeout(function() { window.scrollTo(0, 10); }, 1);
 //  }, false);

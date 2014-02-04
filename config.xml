@@ -3,11 +3,11 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.gitpajo.ensweep"
         versionCode = "10"
-        version     = "1.0.0" >
+        version     = "1.0.1" >
 
     <!-- versionCode is optional and Android only -->
 
-    <name>EnSweep app</name>
+    <name>EnSweep</name>
 
     <description>
         An example for phonegap build docs.
@@ -20,4 +20,7 @@
     <gap:platform name="android" />
     <gap:platform name="winphone" />
 
+	<feature name="InAppBrowser">
+		<param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+	</feature>
 </widget>

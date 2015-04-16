@@ -17,10 +17,14 @@
       <a href="#" onclick="var ref = window.open('http://google.com', '_self');">Google (Webview)</a>	
     <hr>
     <button onclick="myFunction()">Try it</button>
+    <button onclick="page()">Page</button>
     <div id="demo"></div>
 
     <script>
       alert("Ahoj PhoneGap");
+      function page() {
+        window.open('page.html', _self);
+      }
       function myFunction()
       {
         var w = window.innerWidth;

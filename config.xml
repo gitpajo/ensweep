@@ -7,7 +7,7 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <preference name="phonegap-version" value="3.7.0" />
+    <preference name="phonegap-version" value="cli-5.1.1" />
 
     <name>EnSweep</name>
 

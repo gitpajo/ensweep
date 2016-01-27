@@ -1,0 +1,7 @@
+{
+  "windows": {
+    "release": {
+      "publisherId": "CN=FakeCorp.com, L=Redmond, S=Washington, C=US"
+    }
+  }
+}
